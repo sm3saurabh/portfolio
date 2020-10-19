@@ -4,10 +4,16 @@
  * @param {number} at - pass as zero, this is used internally to eventually return from the method
  * @param {string} element - The element, whose text will be modified to fit in the typewriter effect
  */
+
+var typewriterOnGoing = false
+
 function typewriter(text, at, element) {
     if (at == text.length) {
+        typewriterOnGoing = false
         return
     }
+
+    typewriterOnGoing = true
 
     document.getElementById(element).innerHTML += text.charAt(at)
 
@@ -20,7 +26,7 @@ function hiClicked() {
 
     let element = document.getElementById(elementToBeTypeWrited)
 
-    if (element.innerHTML !== textToBeTypeWrited) {
+    if (element.innerHTML !== textToBeTypeWrited && !typewriterOnGoing) {
         this.typewriter(textToBeTypeWrited, 0, elementToBeTypeWrited)
     }
 }
