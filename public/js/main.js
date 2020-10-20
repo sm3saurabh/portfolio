@@ -20,7 +20,7 @@ function typewriter(text, at, element) {
     setTimeout(typewriter, 100, text, at + 1, element)
 }
 
-function hiClicked() {
+window.onload = function() {
     let textToBeTypeWrited = "Hey guys, I am Saurabh Mishra and this is supposed to be my portfolio."
     let elementToBeTypeWrited = "typed"
 

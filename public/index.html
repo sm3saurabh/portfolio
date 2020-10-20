@@ -12,10 +12,35 @@
 </head>
 
 <body>
-  <div class="flex-container centered">
-    <img class="image" src="http://www.htmldog.com/badge1.gif" width="200" height="200" alt="Html dog">
-    <h2 id="typed"></h2>
-    <button class="button" id="hi-btn" onclick="hiClicked()">Say Hi</button>
+  <div class="top-level-flex">
+    <div class="empty-flex"></div>
+    <div class="content-flex">
+
+        <img class="image content-child" src="http://www.htmldog.com/badge1.gif" width="200" height="200" alt="Html dog">
+        <h2 id="typed" class="content-child"></h2>
+        <div class="social-flex content-child">
+
+            <a href="#" target="_blank">
+              <img class="social-icon" src="assets/github.svg">
+            </a>
+      
+            <a href="#" target="_blank">
+              <img class="social-icon" src="assets/linkedin.svg">
+            </a>
+      
+            <a href="#" target="_blank">
+              <img class="social-icon" src="assets/medium.svg">
+            </a>
+      
+            <a href="#" target="_blank">
+              <img class="social-icon" src="assets/twitter.svg">
+            </a>
+          </div>
+
+          <button class="button content-child" id="hi-btn">Say Hi</button>
+    </div>
+    <div class="empty-flex"></div>
+
   </div>
 </body>
 
