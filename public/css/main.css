@@ -16,9 +16,10 @@ h2 {
 }
 
 .image {
-    border: none;
     margin: auto;
-    display: inline-block;
+    object-fit: fill; /* Do not scale the image */
+    height: 400px;
+    width: 300px;
 }
 
 .button {
