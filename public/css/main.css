@@ -9,7 +9,12 @@ html {
     background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(35, 76, 134, 1) 26%, rgba(129, 9, 45, 1) 100%);
     height: 100%;
     width: 100%;
-    overflow: hidden;
+}
+
+@media only screen and (min-width: 600px) {
+    html {
+        overflow: hidden;
+    }
 }
 
 h2 {
@@ -81,4 +86,19 @@ h2 {
     height: 24px;
     width: 24px;
     cursor: pointer;
+    transition: 0.5s all;
+}
+
+.social-flex:hover .social-icon {
+    filter: blur(1px);
+    opacity: 0.5;
+    transform: scale(0.98);
+    box-shadow: none;
+}
+
+.social-flex:hover .social-icon:hover {
+    filter: blur(0px);
+    opacity: 1;
+    transform: scale(1);
+
 }
