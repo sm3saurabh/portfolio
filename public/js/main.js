@@ -1,20 +1,15 @@
 let strings = {
-    self_description: "I am an android developer I am an android developer I am an android developer I am an android developer I am an android developer I am an android developer ",
     twitter_url: "https://twitter.com/sm_saurabhishra",
     github_url: "https://github.com/sm3saurabh/",
     linkedin_url: "https://www.linkedin.com/in/saurabh-mishra-156693146/",
-    medium_url: "https://medium.com/@sm3.saurabhmishra"
+    medium_url: "https://medium.com/@sm3.saurabhmishra",
+    mm_url: "https://mutualmobile.com/"
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    populateDescription()
     setupSocialClick()
+    setupLinkClick()
 })
-
-function populateDescription() {
-    let element = document.getElementById("description")
-    element.innerHTML = strings.self_description
-}
 
 function setupSocialClick() {    
     document.getElementById("twitter").addEventListener("click", function(event) {
@@ -35,5 +30,12 @@ function setupSocialClick() {
     document.getElementById("linkedin").addEventListener("click", function(event) {
         event.preventDefault()
         window.open(strings.linkedin_url, "_blank")
+    })
+}
+
+function setupLinkClick() {
+    document.getElementById("mm").addEventListener("click", function(event) {
+        event.preventDefault()
+        window.open(strings.mm_url, "_blank")
     })
 }
