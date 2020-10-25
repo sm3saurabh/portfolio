@@ -64,13 +64,13 @@ h2 {
     flex: 2;
     border-radius: 16px;
     background-color: #171616;
+    padding: 1rem;
 }
 
 .social-flex {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 32px;
 }
 
 .social-icon {
