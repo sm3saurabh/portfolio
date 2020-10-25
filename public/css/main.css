@@ -7,6 +7,7 @@ body {
 html {
     background: rgba(35, 76, 134, 1);
     background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(35, 76, 134, 1) 26%, rgba(129, 9, 45, 1) 100%);
+    min-height: 100%;
     height: 100%;
     width: 100%;
 }
@@ -17,9 +18,6 @@ html {
     }
 }
 
-h2 {
-    text-align: center;
-}
 
 .image {
     border-radius: 50%;
@@ -27,8 +25,8 @@ h2 {
     margin-bottom: 0px;
     margin-top: 0px;
     object-fit: cover;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
 }
 
 .button {
@@ -76,16 +74,19 @@ h2 {
     box-shadow: 0px 1px 11px 0px rgba(0, 0, 1, 1);
 }
 
+/* Make sure social-flex visibility is hidden to avoid getting hover effect between items */
 .social-flex {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    visibility: hidden;
 }
 
 .social-icon {
     height: 24px;
     width: 24px;
     cursor: pointer;
+    visibility: visible;
     transition: 0.5s all;
 }
 
@@ -101,4 +102,16 @@ h2 {
     opacity: 1;
     transform: scale(1);
 
+}
+
+.link {
+    color: rgb(35, 76, 134);
+    cursor: pointer;
+}
+
+.description {
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: bolder;
 }
