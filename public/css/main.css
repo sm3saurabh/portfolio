@@ -1,12 +1,20 @@
+/* Define variables */
+:root {
+  --page-background:  #fafafa;
+  --content-background: #fafafa;
+  --text-color: 212121;
+  --link-color: #1976D2;
+  --content-shadow-color: #001111;
+}
+
 body {
-    color: #F3E2CF;
+    color: var(--text-color);
     height: 100%;
     width: 100%;
 }
 
 html {
-    background: rgba(35, 76, 134, 1);
-    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(35, 76, 134, 1) 26%, rgba(129, 9, 45, 1) 100%);
+    background: var(--page-background);
     min-height: 100%;
     height: 100%;
     width: 100%;
@@ -69,11 +77,11 @@ html {
     justify-content: center;
     flex: 2;
     border-radius: 16px;
-    background-color: #171616;
+    background-color: var(--content-background);
     padding: 1rem;
-    -webkit-box-shadow: 0px 1px 11px 0px rgba(0, 0, 1, 1);
-    -moz-box-shadow: 0px 1px 11px 0px rgba(0, 0, 1, 1);
-    box-shadow: 0px 1px 11px 0px rgba(0, 0, 1, 1);
+    -webkit-box-shadow: 0px 1px 11px 0px var(--content-shadow-color);
+    -moz-box-shadow: 0px 1px 11px 0px var(--content-shadow-color);
+    box-shadow: 0px 1px 11px 0px var(--content-shadow-color);
 }
 
 /* Make sure social-flex visibility is hidden to avoid getting hover effect between items */
@@ -107,15 +115,15 @@ html {
 }
 
 .link {
-    color: rgb(35, 76, 134);
+    color: var(--link-color);
     cursor: pointer;
 }
 
 .description {
     text-align: center;
-    font-size: 1.3rem;
-    line-height: 2.4rem;
-    font-weight: bolder;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 400;
 }
 
 .footnote-flex {
