@@ -4,6 +4,7 @@
   --content-background: #fafafa;
   --text-color: 212121;
   --link-color: #1976D2;
+  --content-shadow-color: #001111;
 }
 
 body {
@@ -78,9 +79,9 @@ html {
     border-radius: 16px;
     background-color: var(--content-background);
     padding: 1rem;
-    -webkit-box-shadow: 0px 1px 11px 0px rgba(0, 0, 1, 1);
-    -moz-box-shadow: 0px 1px 11px 0px rgba(0, 0, 1, 1);
-    box-shadow: 0px 1px 11px 0px rgba(0, 0, 1, 1);
+    -webkit-box-shadow: 0px 1px 11px 0px var(--content-shadow-color);
+    -moz-box-shadow: 0px 1px 11px 0px var(--content-shadow-color);
+    box-shadow: 0px 1px 11px 0px var(--content-shadow-color);
 }
 
 /* Make sure social-flex visibility is hidden to avoid getting hover effect between items */
