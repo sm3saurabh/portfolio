@@ -1,7 +1,7 @@
 let strings = {
-    twitter_url: "https://twitter.com/sm_saurabhishra",
+    twitter_url: "https://twitter.com/mishrasaurabh__",
     github_url: "https://github.com/sm3saurabh/",
-    linkedin_url: "https://www.linkedin.com/in/saurabh-mishra-156693146/",
+    linkedin_url: "https://www.linkedin.com/in/saurabhmishra97/",
     medium_url: "https://medium.com/@sm3.saurabhmishra",
     mm_url: "https://mutualmobile.com/",
     skia_url: "https://skia.org/",
