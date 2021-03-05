@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/saurabhmishra
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://saurabhmishra.dev
+  * I am saurabhmishra (https://keybase.io/saurabhmishra) on keybase.
+  * I have a public key with fingerprint 6E45 07E0 7CCC 7E63 1CE5  85B7 12D4 F451 D490 1691
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101cbb8a28a15fe2073cb475d60a2bb3f652bdc196be790127aeb96f6b14d3840120a",
+      "fingerprint": "6e4507e07ccc7e631ce585b712d4f451d4901691",
+      "host": "keybase.io",
+      "key_id": "12d4f451d4901691",
+      "kid": "0101cbb8a28a15fe2073cb475d60a2bb3f652bdc196be790127aeb96f6b14d3840120a",
+      "uid": "242b32060e811cf99ada5a8133fc4219",
+      "username": "saurabhmishra"
+    },
+    "service": {
+      "hostname": "saurabhmishra.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1614965359,
+  "expire_in": 157680000,
+  "prev": "415833d32efc17c16f55cffa6a416a17ec0b36951ad80b91179d595b173d88bc",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMImAnicrVJbSBVRFL1qVl6RIqz8qI9ORFRmc2bmzOP2gCwq+uiBQkiP63mNd7o2
+c5u51xTJsqIg7YIWVFJGQQQWGURUImRWlERlHwnai4yQPpIgKHrezkj99dn52Zy9
+11p77c2+W5ATCmcdffpg3bTGcwezHt4+mwpVlm536wFxWR2I1IM4Hwu8mnE/GY3b
+DESABCVICTGwbGCILC5LukKJqiOmSVgmRLE0JBNGoakRrpsSlHXMialZGoEqUwxV
+ZCQMioFlO1XcS3i2kxSyGleRpHNJp5TqXFMg5chARIcyUy0VQaYKKc2Eghhz/YAh
+zBHs8xLbFTnxiY7Z+wf+P/tOjcnJqkwUWdIkbkBILdPEDCNsQEWxqCpDMwD63HPw
+Di7QPk55mMR22H7Mw2B3MRClGpvyYLvBOP+ClTBeI1QSnpt0qVstyrFkMuFHAnqy
+LhHgd3ES/aMUJbbDxEYFo4Z7vu06IAIFkibtQBpqUDU1pCCzGPDahO3xqB0gkK4Z
+knhBH9EuAlSIDEVhiswtCnUKNQshallYwyrUMNQ5lYiimQhiZkjEhFA3GTIRgbrC
+DINQEMy203FBBAmbuCqYyq5ycDLlcbC7t2fLuFBWODQ+Nzu4tFA4b/Lf+9s0PCGz
+Iv9l+9KO72c+TTpUZi+vL3gzpeJY+r67LFHoF1xOfynfvGJBw+mCW+m+Lw2ZrsOv
+Flkz3l20pw/Oja3vPFKZGu5fXNR0aeR8/1C8ufG8s3FeW/RSR+THqvCDb21rLaPu
+5oWSYe/uQnxIzwWFH+fc068d2JMXRWtSez9Xvn/9LN50NXtbfg7r2d9442rPgZGT
+tem+JUWd0Q+H3+xbmPD3z2ovHygvA9UTpIr7qV2re49nyn9e3Pp2/uxe78S21qwb
+vzZMnTlwKv18sCkyNLG9xVl3p5l9vVOfSQ0a+7wXxV2DpS3hSZnO0QGzZ/b0R90V
+Fa2P4+RKR9eT0Rd7Yyu7peul238DqT9HbQ==
+=8dJF
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/saurabhmishra
+
+==================================================================
