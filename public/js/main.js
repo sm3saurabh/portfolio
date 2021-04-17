@@ -5,7 +5,8 @@ let strings = {
     medium_url: "https://medium.com/@sm3.saurabhmishra",
     mm_url: "https://mutualmobile.com/",
     skia_url: "https://skia.org/",
-    android_url: "https://www.android.com/intl/en_in/"
+    android_url: "https://www.android.com/intl/en_in/",
+    resume_url: "https://drive.google.com/file/d/1xW3offh6Bqcq4LZSksXvwuziq29H-6-9/view?usp=sharing"
 }
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -32,6 +33,11 @@ function setupSocialClick() {
     document.getElementById("linkedin").addEventListener("click", function(event) {
         event.preventDefault()
         openUrl(strings.linkedin_url)
+    })
+
+    document.getElementById("resume").addEventListener("click", function(event) {
+      event.preventDefault()
+      openUrl(strings.resume_url)
     })
 }
 
